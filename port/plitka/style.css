@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    max-width: 1560px;
+}
+header{
+    max-width: 1560px;
+    background-image: url(img/victor-garcia-1263465-unsplash.png);
+    background-size: 1560px;
+    padding-bottom: 221px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding: 15px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+header nav a b{
+    color: #B78601;
+    font-size: 18px;
+    font-weight: 400;
+}
+header nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+header nav ul li:first-child a{
+    color: #B78601;
+    font-size: 18px;
+    font-weight: 400;
+}
+header .header__info{
+    margin-top: 120px;
+}
+header .header__info h2{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 50px;
+}
+header .header__info h1{
+    color: #B78601;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 29px;
+}
+header .header__info p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+.button{
+    color: #FFF;
+font-size: 24px;
+font-weight: 400;
+border-radius: 35px;
+border: 1px solid #FFF;
+background: rgba(255, 255, 255, 0.00);
+padding-top: 16px;
+padding-left: 63px;
+padding-right: 63px;
+padding-bottom: 15px;
+margin-top: 46px;
+}
+/* ================================================== section start ======================================================== */
+section{
+    max-width: 1560px;
+    padding-bottom: 96px;
+}
+.section__p{
+    color: #565656;
+font-size: 22px;
+font-weight: 400;
+margin-top: 140px;
+display: block;
+padding-bottom: 82px;
+}
+.section__cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 29px;
+}
+@media screen and (max-width:1120px) {
+    .section__cards{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:750px) {
+    .section__cards{
+        grid-template-columns: auto;
+    }
+}
+/* ========================================================= main start ================================================= */
+main{
+    max-width: 1560px;
+    background: #181818;
+    padding-bottom: 89px    ;
+}
+.main__p{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+    margin-top: 142px;
+    padding-bottom: 91px;
+}
+.main__cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 17px;
+}
+.main__card{
+    text-align: center;
+}
+.main__Card__text{
+    color: #FFF;
+text-align: center;
+font-size: 17px;
+font-weight: 400;
+line-height: 29px; /* 170.588% */
+}
+@media screen and (max-width:750px) {
+    .main__cards{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:650px) {
+    .main__cards{
+        grid-template-columns: auto;
+    }
+}
+/* ======================================================= menu start =========== */
+menu{
+    max-width: 1560px;
+}
+.menu__p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 140px;
+    padding-bottom: 95px;
+}
+.menu__cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 26px;
+}
+.menu__card__text{
+    padding-left: 30px;
+    padding-right: 58px;
+    padding-top: 15px;
+    padding-bottom: 38px;
+    background-color: #181818;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+@media screen and (max-width:960px) {
+    .menu__cards{
+        grid-template-columns: auto auto  auto;
+    }
+}
+@media screen and (max-width:750px) {
+    .menu__cards{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:550px) {
+    .menu__cards{
+        grid-template-columns: auto;
+    }
+}
+/* ============================== section__2 start ========================== */
+.section__2{
+    max-width: 1560px;
+    background-image: url(img/alesia-kazantceva-283291-unsplash.png);
+    background-size: 100%;
+}
+.section__h1{
+    color: #FFF;
+font-size: 75px;
+font-weight: 400;
+margin-top: 177px;
+}
+.section__h1__b{
+    color: #FFF;
+    font-size: 75px;
+    font-weight: 900;
+    margin-top: 26px;
+}
+.section__2__p{
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+/* =============================== footer start ============================== */
+footer{
+    max-width: 1560px;
+    background: #181818;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+.footer__logo{
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer__logo b{
+    color: #B78601;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer__ul li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.footer__ul li:first-child a{
+    color: #B78601;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer__ul li a{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer__text{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    max-width: 1140px;
+}
+.footer__p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+@media screen and (max-width:1100px) {
+    .footer__text{
+        grid-template-columns: auto;
+    }
+}
